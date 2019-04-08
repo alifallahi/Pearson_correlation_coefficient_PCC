@@ -1,0 +1,11 @@
+﻿Pearson Correlation Coefficient (PCC) in one of the most common techniques in recommender systems when you want to find the degree of similarity between users from their ratings of corated item between them. In this file I used Python 3 to implement PCC.
+The code contain three function:
+
+* def average_calculator:
+for finding the average rate of ratings for each user
+
+* def find_corated_items:
+this function find index of corated items as elements in a list
+
+* def pcc:
+as the main function of the code calculate the similarity between users and provide the result.
