@@ -1,15 +1,19 @@
 
 def average_calculator(list_input):
     temp_sum = 0
-
+    temp_quntity = 0
+    y = "user"+str(id_input)
+    list_input = all_users_dict[y]
     len_list_input = len(list_input)
-
     for x in list_input:
         temp_sum = temp_sum + x
-
-    average_list_input = temp_sum / len_list_input
-    ###print("average of the input is", average_list_input)
-    return average_list_input
+        if x > 0:
+            temp_quntity = temp_quntity + 1
+    if (temp_sum>0 and temp_quntity>0):
+        average_id_input = temp_sum / temp_quntity
+    else:
+        average_id_input = 0
+    return average_id_input
 
 
 def find_corated_items(array1, array2):
